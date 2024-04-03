@@ -48,64 +48,61 @@ intitle: This operator allows you to search for pages that contain specific text
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+## output:
+### site:
+![Screenshot 2024-04-03 082413](https://github.com/Rajeshanbu/Enumeration/assets/118924713/54a0a44d-46e2-44eb-b4d2-c70fdbe9f6f2)
 
- 
-#DNS Enumeration
+### filetype:
+![Screenshot 2024-04-03 082555](https://github.com/Rajeshanbu/Enumeration/assets/118924713/52967193-0fe7-4683-a98d-a5dcdf1a2eee)
 
+### intext:
+![Screenshot 2024-04-03 082701](https://github.com/Rajeshanbu/Enumeration/assets/118924713/15cb8bb9-a194-4672-af43-3b1c3f670790)
 
-##DNS Recon
-provides the ability to perform:
-Check all NS records for zone transfers
-Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
-Perform common SRV Record Enumeration
-Top level domain expansion
-## OUTPUT:
+### inurl:
+![Screenshot 2024-04-03 082803](https://github.com/Rajeshanbu/Enumeration/assets/118924713/fd2158de-f406-4400-8bdd-358ce8ffb85e)
 
-
-
-
-
+### intitle:
+![Screenshot 2024-04-03 083059](https://github.com/Rajeshanbu/Enumeration/assets/118924713/e3c4b4d1-f2ab-41c0-9b94-affe1ca62704)
 
 
-##dnsenum
+### link:
+![Screenshot 2024-04-03 084134](https://github.com/Rajeshanbu/Enumeration/assets/118924713/f28c6bea-c40d-46c3-afb2-918d8a19309e)
+### cache:
+## DNS Enumeration:
+![Screenshot 2024-04-03 083912](https://github.com/Rajeshanbu/Enumeration/assets/118924713/135bb840-1c2e-4e07-86a8-efa64e37712b)
+
+### DNS Recon
+provides the ability to perform: Check all NS records for zone transfers Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT) Perform common SRV Record Enumeration Top level domain expansion
+
+### dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
-Get the host’s addresses (A record).
-Get the namservers (threaded).
-Get the MX record (threaded).
-Perform axfr queries on nameservers and get BIND versions(threaded).
-Get extra names and subdomains via google scraping (google query = “allinurl: -www site:domain”).
-Brute force subdomains from file, can also perform recursion on subdomain that have NS records (all threaded).
-Calculate C class domain network ranges and perform whois queries on them (threaded).
-Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
-Write to domain_ips.txt file ip-blocks.
-This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+Get the host’s addresses (A record). Get the namservers (threaded). Get the MX record (threaded). Perform axfr queries on nameservers and get BIND versions(threaded). Get extra names and subdomains via google scraping (google query = “allinurl: -www site:domain”). Brute force subdomains from file, can also perform recursion on subdomain that have NS records (all threaded). Calculate C class domain network ranges and perform whois queries on them (threaded). Perform reverse lookups on netranges (C class or/and whois netranges) (threaded). Write to domain_ips.txt file ip-blocks. This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
-
-##smtp-user-enum
+### smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
-
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
 
+Telnet for smtp enumeration
+Telnet allows to connect to remote host based on the port no. For smtp port no is 25 telnet 25 to connect and issue appropriate commands
 
-#Telnet for smtp enumeration
-Telnet allows to connect to remote host based on the port no. For smtp port no is 25
-telnet <host address> 25 to connect
-and issue appropriate commands
-  
- ##Output
-  
-  
-
-## nmap –script smtp-enum-users.nse <hostname>
-
+nmap –script smtp-enum-users.nse
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
+### OUTPUT:
+## DNS Recon
 
-## OUTPUT:
+
+### dnsenum
+
+
+### smtp-user-enum
+
+
+### nmap –script smtp-enum-users.nse
 
 
 ## RESULT:
