@@ -26,28 +26,28 @@ Open terminal and try execute some kali linux commands
 Following Categories of pen test tools are identified:
 Information Gathering.
 
-Google Hacking:
+### Google Hacking:
 
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
 
-site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
+#### site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
-filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
+### filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
 
 
-intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+### intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
 
-inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+### inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
-intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+### intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
-link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+### link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
-cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+### cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 ## output:
 ### site:
 ![Screenshot 2024-04-03 082413](https://github.com/Rajeshanbu/Enumeration/assets/118924713/54a0a44d-46e2-44eb-b4d2-c70fdbe9f6f2)
@@ -68,9 +68,8 @@ cache: This operator allows you to view the cached version of a page. For exampl
 ### link:
 ![Screenshot 2024-04-03 084134](https://github.com/Rajeshanbu/Enumeration/assets/118924713/f28c6bea-c40d-46c3-afb2-918d8a19309e)
 ### cache:
-## DNS Enumeration:
 ![Screenshot 2024-04-03 083912](https://github.com/Rajeshanbu/Enumeration/assets/118924713/135bb840-1c2e-4e07-86a8-efa64e37712b)
-
+## DNS Enumeration:
 ### DNS Recon
 provides the ability to perform: Check all NS records for zone transfers Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT) Perform common SRV Record Enumeration Top level domain expansion
 
@@ -94,15 +93,17 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 ### OUTPUT:
 ## DNS Recon
-
+![Screenshot 2024-04-03 103834](https://github.com/Rajeshanbu/Enumeration/assets/118924713/a4bb66e7-50f9-4d7c-98aa-d40df74b75c6)
+![Screenshot 2024-04-03 104150](https://github.com/Rajeshanbu/Enumeration/assets/118924713/510b72e8-e523-4373-9cb0-ef0e99df0674)
 
 ### dnsenum
-
+![Screenshot 2024-04-03 104331](https://github.com/Rajeshanbu/Enumeration/assets/118924713/5dc27af7-43eb-4900-8f61-ee5aec6432fc)
 
 ### smtp-user-enum
-
+![Screenshot 2024-04-03 104727](https://github.com/Rajeshanbu/Enumeration/assets/118924713/3510a49e-1516-47bc-a53c-9268736d89a5)
 
 ### nmap –script smtp-enum-users.nse
+![Screenshot 2024-04-03 110039](https://github.com/Rajeshanbu/Enumeration/assets/118924713/12b48644-95d1-4d62-86a6-18e8520196fb)
 
 
 ## RESULT:
