@@ -50,25 +50,31 @@ Following searches for pdf file in the domain yahoo.com
 ### cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 ## output:
 ### site:
-![Screenshot 2024-04-03 082413](https://github.com/Rajeshanbu/Enumeration/assets/118924713/54a0a44d-46e2-44eb-b4d2-c70fdbe9f6f2)
+
+![311](https://github.com/Rajeshanbu/Enumeration/assets/118924713/12edcf5b-f42a-4366-9bd9-6ce521c005a6)
 
 ### filetype:
-![Screenshot 2024-04-03 082555](https://github.com/Rajeshanbu/Enumeration/assets/118924713/52967193-0fe7-4683-a98d-a5dcdf1a2eee)
+![32](https://github.com/Rajeshanbu/Enumeration/assets/118924713/2daef5ec-fa1c-49ee-9f05-344c32f4fd68)
+
 
 ### intext:
-![Screenshot 2024-04-03 082701](https://github.com/Rajeshanbu/Enumeration/assets/118924713/15cb8bb9-a194-4672-af43-3b1c3f670790)
+![33](https://github.com/Rajeshanbu/Enumeration/assets/118924713/6d83e607-510c-4a19-8b70-88fdefdbf4e0)
+
 
 ### inurl:
-![Screenshot 2024-04-03 082803](https://github.com/Rajeshanbu/Enumeration/assets/118924713/fd2158de-f406-4400-8bdd-358ce8ffb85e)
+![34](https://github.com/Rajeshanbu/Enumeration/assets/118924713/7efc892e-31df-4b1a-87eb-726256754ac5)
 
 ### intitle:
-![Screenshot 2024-04-03 083059](https://github.com/Rajeshanbu/Enumeration/assets/118924713/e3c4b4d1-f2ab-41c0-9b94-affe1ca62704)
+
+![35](https://github.com/Rajeshanbu/Enumeration/assets/118924713/f7cdac62-7653-4ef1-9dde-5772c3072f9e)
 
 
 ### link:
-![Screenshot 2024-04-03 084134](https://github.com/Rajeshanbu/Enumeration/assets/118924713/f28c6bea-c40d-46c3-afb2-918d8a19309e)
+![37](https://github.com/Rajeshanbu/Enumeration/assets/118924713/f050fed5-5492-4881-8875-1e0fd0f84190)
+
 ### cache:
-![Screenshot 2024-04-03 083912](https://github.com/Rajeshanbu/Enumeration/assets/118924713/135bb840-1c2e-4e07-86a8-efa64e37712b)
+![36](https://github.com/Rajeshanbu/Enumeration/assets/118924713/df0969c8-5472-4fae-bcba-04192dfda0d9)
+
 ## DNS Enumeration:
 ### DNS Recon
 provides the ability to perform: Check all NS records for zone transfers Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT) Perform common SRV Record Enumeration Top level domain expansion
@@ -93,17 +99,19 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 ### OUTPUT:
 ## DNS Recon
-![Screenshot 2024-04-03 103834](https://github.com/Rajeshanbu/Enumeration/assets/118924713/a4bb66e7-50f9-4d7c-98aa-d40df74b75c6)
-![Screenshot 2024-04-03 104150](https://github.com/Rajeshanbu/Enumeration/assets/118924713/510b72e8-e523-4373-9cb0-ef0e99df0674)
+![38](https://github.com/Rajeshanbu/Enumeration/assets/118924713/6ca6d32a-6e1d-426e-b760-391d1516c5b6)
+
+![39](https://github.com/Rajeshanbu/Enumeration/assets/118924713/bc64174f-3f7f-4022-bba7-a7b6d892f88b)
 
 ### dnsenum
-![Screenshot 2024-04-03 104331](https://github.com/Rajeshanbu/Enumeration/assets/118924713/5dc27af7-43eb-4900-8f61-ee5aec6432fc)
+![311](https://github.com/Rajeshanbu/Enumeration/assets/118924713/fc8b34d5-1b49-4456-9f6d-458903a23386)
 
 ### smtp-user-enum
-![Screenshot 2024-04-03 104727](https://github.com/Rajeshanbu/Enumeration/assets/118924713/3510a49e-1516-47bc-a53c-9268736d89a5)
+![313](https://github.com/Rajeshanbu/Enumeration/assets/118924713/04b7b430-c36c-4ebd-bb99-0fcb6ca8c5ed)
 
 ### nmap –script smtp-enum-users.nse
-![Screenshot 2024-04-03 110039](https://github.com/Rajeshanbu/Enumeration/assets/118924713/12b48644-95d1-4d62-86a6-18e8520196fb)
+
+![314](https://github.com/Rajeshanbu/Enumeration/assets/118924713/85705cbc-f0c9-46c9-ba93-cee7016b8a80)
 
 
 ## RESULT:
