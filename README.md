@@ -51,29 +51,30 @@ Following searches for pdf file in the domain yahoo.com
 ## output:
 ### site:
 
-![311](https://github.com/Rajeshanbu/Enumeration/assets/118924713/12edcf5b-f42a-4366-9bd9-6ce521c005a6)
+![321869206-12edcf5b-f42a-4366-9bd9-6ce521c005a6](https://github.com/vatsan143/Enumeration/assets/147368204/0f52c9ab-d0cb-4cba-a58c-3f1476b68569)
 
 ### filetype:
-![32](https://github.com/Rajeshanbu/Enumeration/assets/118924713/2daef5ec-fa1c-49ee-9f05-344c32f4fd68)
 
+![321872255-2daef5ec-fa1c-49ee-9f05-344c32f4fd68](https://github.com/vatsan143/Enumeration/assets/147368204/45bc5174-6cd3-4b12-ba8c-a889dd5b7e48)
 
 ### intext:
-![33](https://github.com/Rajeshanbu/Enumeration/assets/118924713/6d83e607-510c-4a19-8b70-88fdefdbf4e0)
 
+![321872268-6d83e607-510c-4a19-8b70-88fdefdbf4e0](https://github.com/vatsan143/Enumeration/assets/147368204/24ce8ed8-3739-4ea4-94c9-240c9ef8345e)
 
 ### inurl:
-![34](https://github.com/Rajeshanbu/Enumeration/assets/118924713/7efc892e-31df-4b1a-87eb-726256754ac5)
+
+![321872289-7efc892e-31df-4b1a-87eb-726256754ac5](https://github.com/vatsan143/Enumeration/assets/147368204/80782a77-f299-4576-ac16-20100c9a396f)
 
 ### intitle:
 
-![35](https://github.com/Rajeshanbu/Enumeration/assets/118924713/f7cdac62-7653-4ef1-9dde-5772c3072f9e)
 
+![321872331-f7cdac62-7653-4ef1-9dde-5772c3072f9e](https://github.com/vatsan143/Enumeration/assets/147368204/9758378b-61a3-4fa6-a16b-25200a704991)
 
 ### link:
-![37](https://github.com/Rajeshanbu/Enumeration/assets/118924713/f050fed5-5492-4881-8875-1e0fd0f84190)
+![321872356-f050fed5-5492-4881-8875-1e0fd0f84190](https://github.com/vatsan143/Enumeration/assets/147368204/866dadca-c088-4d8c-8d3d-7895d17b0309)
 
 ### cache:
-![36](https://github.com/Rajeshanbu/Enumeration/assets/118924713/df0969c8-5472-4fae-bcba-04192dfda0d9)
+![321872376-df0969c8-5472-4fae-bcba-04192dfda0d9](https://github.com/vatsan143/Enumeration/assets/147368204/fa309948-7b86-4870-a4c1-370970f8fef8)
 
 ## DNS Enumeration:
 ### DNS Recon
@@ -99,19 +100,19 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 ### OUTPUT:
 ## DNS Recon
-![38](https://github.com/Rajeshanbu/Enumeration/assets/118924713/6ca6d32a-6e1d-426e-b760-391d1516c5b6)
+![321872465-6ca6d32a-6e1d-426e-b760-391d1516c5b6](https://github.com/vatsan143/Enumeration/assets/147368204/efd39ea1-8e53-44c7-bd72-394d9ee9011d)
+![321872486-bc64174f-3f7f-4022-bba7-a7b6d892f88b](https://github.com/vatsan143/Enumeration/assets/147368204/c16ee69e-ef87-40bd-a166-6986e0ba95f8)
 
-![39](https://github.com/Rajeshanbu/Enumeration/assets/118924713/bc64174f-3f7f-4022-bba7-a7b6d892f88b)
 
 ### dnsenum
-![311](https://github.com/Rajeshanbu/Enumeration/assets/118924713/fc8b34d5-1b49-4456-9f6d-458903a23386)
+![321873177-fc8b34d5-1b49-4456-9f6d-458903a23386](https://github.com/vatsan143/Enumeration/assets/147368204/2b42ba21-88b0-468d-ab36-310bebaaff58)
 
 ### smtp-user-enum
-![313](https://github.com/Rajeshanbu/Enumeration/assets/118924713/04b7b430-c36c-4ebd-bb99-0fcb6ca8c5ed)
+![321873215-04b7b430-c36c-4ebd-bb99-0fcb6ca8c5ed](https://github.com/vatsan143/Enumeration/assets/147368204/1d0902ec-a4ce-4c39-93e6-3026c589d220)
 
 ### nmap –script smtp-enum-users.nse
 
-![314](https://github.com/Rajeshanbu/Enumeration/assets/118924713/85705cbc-f0c9-46c9-ba93-cee7016b8a80)
+![321872546-85705cbc-f0c9-46c9-ba93-cee7016b8a80](https://github.com/vatsan143/Enumeration/assets/147368204/13894d99-91e9-49d4-98d0-e8e8608cdb79)
 
 
 ## RESULT:
