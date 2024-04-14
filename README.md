@@ -32,41 +32,41 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 ## Output:
-![alt text](239720288-29828d11-353b-40d3-8951-61a42d9c029f-1.png)
+![239720288-29828d11-353b-40d3-8951-61a42d9c029f](https://github.com/vatsan143/Enumeration/assets/147368204/ebdd59e0-16f7-404b-8310-d93c39d9e0df)
 
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 ## Output:
-![image](https://github.com/gokul-sureshkumar/Enumeration/assets/121148715/f169a7de-0f7f-4b8c-b402-ccaa6ea6a907)
+![239720300-f169a7de-0f7f-4b8c-b402-ccaa6ea6a907](https://github.com/vatsan143/Enumeration/assets/147368204/5f90995a-278f-4016-8473-e4b4831fe213)
 
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 ## Output:
-![image](https://github.com/gokul-sureshkumar/Enumeration/assets/121148715/f7716744-5455-463e-b0a0-3a44821e70af)
+![239720307-f7716744-5455-463e-b0a0-3a44821e70af](https://github.com/vatsan143/Enumeration/assets/147368204/4f823719-9d8c-4b0e-bc09-027d18f4c5ba)
 
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 ## Ouput:
-![image](https://github.com/gokul-sureshkumar/Enumeration/assets/121148715/61b83322-2aba-44f3-9a90-dc9bb3fe6175)
+![239720312-61b83322-2aba-44f3-9a90-dc9bb3fe6175](https://github.com/vatsan143/Enumeration/assets/147368204/13d21414-14cc-4675-96fa-c1cfe2d2341d)
 
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 ## Output:
-![image](https://github.com/gokul-sureshkumar/Enumeration/assets/121148715/cbda231f-5058-4343-8541-014cc1c5729c)
+![239720322-cbda231f-5058-4343-8541-014cc1c5729c](https://github.com/vatsan143/Enumeration/assets/147368204/718fc61d-7e00-4941-97f9-aacd7124176a)
 
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 ## Output:
-![image](https://github.com/gokul-sureshkumar/Enumeration/assets/121148715/bf1840b8-075d-497e-8f1c-4ca6d8327982)
+![239720329-bf1840b8-075d-497e-8f1c-4ca6d8327982](https://github.com/vatsan143/Enumeration/assets/147368204/da374d69-62c4-4ff1-813e-6037a6eae2c1)
 
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 ## Output:
-![image](https://github.com/gokul-sureshkumar/Enumeration/assets/121148715/e127c95b-a133-42d4-aa3d-a833faa3aad0)
+![239720337-e127c95b-a133-42d4-aa3d-a833faa3aad0](https://github.com/vatsan143/Enumeration/assets/147368204/db01d1ce-c1fa-4d95-aec7-20bd3b257f09)
 
  
 #DNS Enumeration
@@ -128,6 +128,4 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## RESULT:
-The Google hacking keywords and enumeration tools were identified and executed successfully
-
-](https://github.com/vatsan143/Enumeration.git)
+The Google hacking keywords and enumeration tools were identified and executed successfull
